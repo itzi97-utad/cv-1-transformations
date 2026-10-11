@@ -1,0 +1,12 @@
+# pip alternative to environment.yml (python -m venv .venv && pip install -r requirements.txt)
+numpy
+opencv-contrib-python
+matplotlib
+scikit-image
+scipy
+jupyterlab
+ipykernel
+ipywidgets
+nbformat
+nbclient
+nbstripout

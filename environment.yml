@@ -1,0 +1,16 @@
+name: cv-p1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - opencv
+  - matplotlib
+  - scikit-image      # metrics (SSIM, PSNR) for justifying parameters / comparing 9–10
+  - scipy
+  - jupyterlab
+  - ipykernel
+  - ipywidgets        # sliders for exploring parameters
+  - nbformat
+  - nbclient          # executes the merged submission notebook
+  - nbstripout        # keeps notebook outputs out of git

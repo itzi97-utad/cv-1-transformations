@@ -1,0 +1,19 @@
+# Course images: download Images.zip from Blackboard and unzip into data/raw/
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated
+submission/
+outputs/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
